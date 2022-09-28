@@ -156,3 +156,10 @@ button {
     width: 250px;
     height: 50px;
 }
+
+.top-heroes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
