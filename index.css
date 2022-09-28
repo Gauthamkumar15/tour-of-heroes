@@ -36,6 +36,7 @@ button {
     border-color: #ffffff;
     border-radius: 10000px;
     color: #ffffff;
+    border: none;
 }
 
 .bg-container {
