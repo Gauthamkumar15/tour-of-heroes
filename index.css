@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+.top-hero-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-button {
+    height: 50px;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-radius: 10000px;
+}
+
+.nav-button1 {
+    height: 50px;
+    background-color:#000000 ;
+    border-color: #ffffff;
+    border-radius: 10000px;
+    color: #ffffff;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-hero-button {
+    height: 60px;
+    width: 400px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border: solid;
+    border-radius: 30px;
+}
+
+.dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.nav {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.for-directive {
+    display: flex;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.for-directive:hover .for-directive-id {
+    background-color: #dcc8e3;
+    color:#000000;
+}
+
+.for-directive:hover .for-directive1 {
+    background-color: #471b57;
+    color: #ffffff;
+}
+
+.for-directive-id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: #471b57;
+    color: white;
+    height: 100%;
+    width: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.for-directive-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.for-directive1{
+    display: flex;
+    align-items: center;
+    background-color: #dcc8e3;
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    margin-top: 25px;
+}
+
+.heroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-input {
+    border: #000000;
+    border:solid;
+    border-width: 2px;
+    width: 200px;
+    height: 30px;
+
+}
+
+.edit-input:hover {
+    
+    width: 250px;
+    height: 50px;
+}

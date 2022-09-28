@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body ng-app = "tourOfHeros" ng-controller = "mainController">
+    <div class = "bg-container">
+        <div class = "nav">
+            <h1>Tour Of Heroes</h1>
+            <div>
+                <button ng-click = "dashboardClicked()" class = {{button}}>Dashboard</button>
+                <button ng-click = "heroesClicked()" class = {{button1}}>Heroes</button>
+            </div>
+        </div>
+        <div ng-view ></div>
+    </div>
+    
+    <script src = "https://code.angularjs.org/snapshot/angular.min.js"></script>
+    <script src = "https://code.angularjs.org/snapshot/angular-route.min.js"></script>
+    <script src = "app.js" ></script>
+    <script src = "main.controller.js" ></script>
+    <script src = "main.directive.js" ></script>
+    <script src = "Edit/edit.controller.js" ></script>
+    <script src = "Dashboard/dashboard.controller.js" ></script>
+    <script src = "MyHeroes/myHeroes.controller.js" ></script>
+</body>
+</html>
